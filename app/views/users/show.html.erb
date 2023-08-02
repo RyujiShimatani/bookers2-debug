@@ -10,5 +10,6 @@
       <h2>Books</h2>
       <%= render 'books/index',books: @books %>
     </div>
+    <p> <%= "#{@book.book_comments.count} コメント" %></p>
   </div>
 </div>
